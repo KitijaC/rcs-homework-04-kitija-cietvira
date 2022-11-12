@@ -1,0 +1,83 @@
+.wrapper-edit-profile {
+    padding: 10px 20px;
+
+    .nav-bar {
+        border-bottom: 1px solid rgb(51, 6, 51);
+        display: flex;
+        flex-direction: row;
+        p {
+            color: rgb(51, 6, 51);
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+            margin-right: auto;
+        }
+
+        a {
+            color: rgb(148, 22, 121);
+            font-size: 30px;
+            padding-left: 30px;
+            margin: 0; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(51, 6, 51);
+        }
+    }
+
+    h2 {
+        color: rgb(51, 6, 51);
+        text-align: center;
+        padding: 50px;
+        font-size: 40px;
+    }
+
+    .form-group {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+
+        label {
+            display: inline-block;
+            width: 110px;
+            text-align: left;
+            padding-right: 10px;
+            color: rgb(51, 6, 51);
+            font-size: 30px;
+        }
+
+        input:not(:last-child) {
+            border-radius: 5px;
+            border: none;
+            width: 500px;
+        }
+
+        textarea {
+            border-radius: 5px;
+            border: none;
+            width: 500px;
+            height: 300px;
+        }
+    }
+
+    .invalid-feedback {
+        color: red;
+    } 
+
+    .btn {
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: none;
+    }
+    .btn-primary {
+        background-color:rgb(51, 6, 51);
+        color: white;
+    }
+    .btn-primary:hover {
+        background-color:white;
+        color: rgb(51, 6, 51);;
+    }
+}

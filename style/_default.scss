@@ -1,0 +1,20 @@
+html {
+    background-color: rgb(226, 217, 233);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .footer {
+        margin-top: auto;
+
+        p {
+            color: rgb(51, 6, 51);
+            text-align: center;
+        }
+    }
+}
+

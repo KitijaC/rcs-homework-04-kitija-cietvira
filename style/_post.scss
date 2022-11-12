@@ -1,0 +1,86 @@
+.wrapper-post {
+    padding: 10px 20px;
+
+    .nav-bar {
+        border-bottom: 1px solid rgb(51, 6, 51);
+        display: flex;
+        flex-direction: row;
+        p {
+            color: rgb(51, 6, 51);
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+            margin-right: auto;
+        }
+
+        a {
+            color: rgb(148, 22, 121);
+            font-size: 30px;
+            padding-left: 30px;
+            margin: 0; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(51, 6, 51);
+        }
+    }
+
+    h1 {
+        color: rgb(53, 12, 12);
+        text-align: center;
+        padding-top: 30px;
+        font-size: 50px;
+    }
+    
+    .title {
+        color:rgb(148, 22, 121);
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    }
+
+    a {
+        color: rgb(148, 22, 121);
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none; 
+        float: right;
+        padding-left: 30px;
+    }
+    a:hover {
+        color: rgb(51, 6, 51);
+    }
+
+    .post-buttons {
+        color: rgb(148, 22, 121);
+        font-size: 30px;
+        padding: 0px;
+        padding-bottom: 20px;
+        margin: 0px;
+        text-decoration: none; 
+        float: right;
+        padding-left: 30px;
+    }
+
+    .post-date {
+        color:rgb(51, 6, 51);
+        font-weight: bold;
+    }
+
+    .post-owner-username {
+        color:rgb(148, 22, 121);
+    }
+
+    .post-text {
+        text-align: justify;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

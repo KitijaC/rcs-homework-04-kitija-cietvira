@@ -1,0 +1,64 @@
+
+.wrapper-index {
+    padding: 10px 20px;
+    
+    .nav-bar {
+        border-bottom: 1px solid rgb(51, 6, 51);
+        display: flex;
+        flex-direction: row;
+        p {
+            color: rgb(51, 6, 51);
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+            margin-right: auto;
+        }
+
+        a {
+            color: rgb(148, 22, 121);
+            font-size: 30px;
+            padding: 0px;
+            margin: 0; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(51, 6, 51);
+        }
+    }
+
+    h1 {
+        color: rgb(53, 12, 12);
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        font-size: 100px;
+    }
+    .links-index {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+
+        a {
+            text-decoration: none;
+            color: rgb(51, 6, 51);
+            font-weight: bold;
+        } 
+        .sign-in {
+            padding-right: 50px;
+        }
+
+        .sign-in:hover {
+            color:rgb(142, 6, 142);
+        }
+        .sign-up {
+            color: rgb(78, 18, 18);
+        }
+
+        .sign-up:hover {
+            color: rgb(142, 6, 142);
+        }
+    }
+}

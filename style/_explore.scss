@@ -1,0 +1,45 @@
+
+.wrapper-explore {
+    padding: 10px 20px;
+
+    .nav-bar {
+        border-bottom: 1px solid rgb(51, 6, 51);
+        display: flex;
+        flex-direction: row;
+        p {
+            color: rgb(51, 6, 51);
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+            margin-right: auto;
+        }
+
+        a {
+            color: rgb(148, 22, 121);
+            font-size: 30px;
+            padding-left: 30px;
+            margin: 0; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(51, 6, 51);
+        }
+    }
+
+    h1 {
+        color: rgb(53, 12, 12);
+        text-align: center;
+        padding-top: 30px;
+        font-size: 50px;
+    }
+
+    .posts-explore {
+        text-decoration: none;
+        padding: 20px;
+        color:rgb(148, 22, 121);
+    }
+    .posts-explore:hover {
+        color:rgb(51, 6, 51);
+    }
+}
