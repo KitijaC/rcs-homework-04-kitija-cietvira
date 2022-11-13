@@ -35,11 +35,6 @@
     $text = $profile->getProfileText();
     $image = $profile->getProfileImageName();
 
-
-    // var_dump($profile);
-    // die();
-
-
 ?>
 
 
