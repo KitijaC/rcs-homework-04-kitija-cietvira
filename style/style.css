@@ -81,6 +81,10 @@ body .footer p {
   color: rgb(142, 6, 142);
 }
 
+.footer .footer-index-p {
+  color: whitesmoke;
+}
+
 .wrapper-signup {
   padding: 10px 20px;
 }
@@ -373,10 +377,6 @@ body .footer p {
 }
 .wrapper-explore .posts-explore:hover {
   color: rgb(51, 6, 51);
-}
-
-.footer p {
-  color: white;
 }
 
 .wrapper-create-post {
