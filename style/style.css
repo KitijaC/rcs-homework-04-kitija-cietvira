@@ -1,5 +1,7 @@
 html {
-  background-color: rgb(226, 217, 233);
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/green-aesthetic-wallpaper-full-hd-920x518.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -9,6 +11,7 @@ body {
   flex-direction: column;
 }
 body .footer {
+  display: inline-block;
   margin-top: auto;
 }
 body .footer p {
@@ -16,13 +19,15 @@ body .footer p {
   text-align: center;
 }
 
-.wrapper-index {
-  padding: 10px 20px;
+.body-color {
+  background-color: hsla(0deg, 5%, 84%, 0.7);
 }
+
 .wrapper-index .nav-bar {
   border-bottom: 1px solid rgb(51, 6, 51);
   display: flex;
   flex-direction: row;
+  padding: 10px 20px;
 }
 .wrapper-index .nav-bar p {
   color: rgb(51, 6, 51);
@@ -32,14 +37,14 @@ body .footer p {
   margin-right: auto;
 }
 .wrapper-index .nav-bar a {
-  color: rgb(148, 22, 121);
+  color: rgb(51, 6, 51);
   font-size: 30px;
   padding: 0px;
   margin: 0;
   text-decoration: none;
 }
 .wrapper-index .nav-bar a:hover {
-  color: rgb(51, 6, 51);
+  color: rgb(148, 22, 121);
 }
 .wrapper-index h1 {
   color: rgb(53, 12, 12);
@@ -47,6 +52,8 @@ body .footer p {
   padding-top: 80px;
   padding-bottom: 100px;
   font-size: 100px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
 .wrapper-index .links-index {
   display: flex;
@@ -59,6 +66,7 @@ body .footer p {
   text-decoration: none;
   color: rgb(51, 6, 51);
   font-weight: bold;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
 .wrapper-index .links-index .sign-in {
   padding-right: 50px;
@@ -301,6 +309,9 @@ body .footer p {
   font-size: 20px;
   line-height: 30px;
   text-align: left;
+  background-color: hsla(0deg, 5%, 84%, 0.6);
+  padding: 10px;
+  border-radius: 8px;
 }
 .wrapper-profile .username {
   color: rgb(148, 22, 121);
@@ -364,6 +375,10 @@ body .footer p {
   color: rgb(51, 6, 51);
 }
 
+.footer p {
+  color: white;
+}
+
 .wrapper-create-post {
   padding: 10px 20px;
 }
@@ -418,6 +433,7 @@ body .footer p {
   border: none;
   width: 500px;
   height: 300px;
+  resize: none;
 }
 .wrapper-create-post .form-group .label-img {
   width: 360px;
@@ -514,6 +530,9 @@ body .footer p {
   text-align: justify;
   font-size: 20px;
   line-height: 30px;
+  background-color: hsla(0deg, 5%, 84%, 0.6);
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .wrapper-edit-post {

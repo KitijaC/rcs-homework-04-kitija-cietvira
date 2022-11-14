@@ -48,9 +48,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viewing post</title>
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style.css" type="text/css">
 </head>
-<body>
+<body class="body-color">
 <div class="wrapper wrapper-post">
     <div class="nav-bar">
         <p>Book Club Blog</p>
@@ -79,6 +79,7 @@
     <?php if ($userOwnsThisPost) { ?>
         <a class="post-buttons" href="../controllers/deletepost.php?post-id=<?= $postId ?>">Delete post</a>
     <?php } ?>
+</div>
 <div class="footer">
     <p>RCS, Kitija Cietvīra, 2022</p>
 </div>  

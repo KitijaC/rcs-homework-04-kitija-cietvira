@@ -1,6 +1,9 @@
 html {
-    background-color: rgb(226, 217, 233);
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/green-aesthetic-wallpaper-full-hd-920x518.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
+ 
 }
 
 body {
@@ -9,12 +12,16 @@ body {
     flex-direction: column;
 
     .footer {
+        display: inline-block;
         margin-top: auto;
-
         p {
             color: rgb(51, 6, 51);
             text-align: center;
         }
     }
+}
+
+.body-color {
+    background-color: hsla(0, 5%, 84%, 0.7);
 }
 
