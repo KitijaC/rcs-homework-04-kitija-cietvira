@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="footer">
-        <p>RCS, Kitija Cietvīra, 2022</p>
+        <p class="footer-index-p">RCS, Kitija Cietvīra, 2022</p>
     </div>
 </body>
 </html>
