@@ -85,7 +85,7 @@
         </div>
         <div class="form-group">
             <label>Text</label> 
-            <textarea type="text" name="text" class="form-control <?php echo (!empty($text_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $text; ?>"></textarea>
+            <textarea type="text" name="text" class="form-control <?php echo (!empty($text_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $text; ?>" style="resize: none;"></textarea>
             <span class="invalid-feedback"><?php echo $text_err; ?></span>
         </div>
         <div class="form-group">

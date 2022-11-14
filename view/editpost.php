@@ -130,7 +130,7 @@
             </div>
             <div class="form-group">
                 <label>Text</label>
-                <textarea type="text" name="text" class="form-control <?php echo (!empty($text_err)) ? 'is-invalid' : ''; ?>"><?= trim($text) ?></textarea>
+                <textarea type="text" name="text" class="form-control <?php echo (!empty($text_err)) ? 'is-invalid' : ''; ?>" style="resize: none;"><?= trim($text) ?></textarea>
                 <span class="invalid-feedback"><?php echo $text_err; ?></span>
             </div>
             <div class="form-group">

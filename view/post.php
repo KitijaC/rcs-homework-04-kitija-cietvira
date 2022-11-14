@@ -55,9 +55,9 @@
     <div class="nav-bar">
         <p>Book Club Blog</p>
         <?php if (!isset($_SESSION["signedin"]) || $_SESSION["signedin"] !== TRUE) { ?>
-                <a href="explore.php">Explore</a>
-                <a href="signin.php">Sign In</a>
-                <a href="signup.php">Sign Up</a>
+            <a href="explore.php">Explore</a>
+            <a href="signin.php">Sign In</a>
+            <a href="signup.php">Sign Up</a>
             <a href="index.php">Home</a>
         <?php } else { ?>
             <a href="profile.php?user-id=<?= $_SESSION["id"] ?>">My Profile</a>
@@ -79,7 +79,6 @@
     <?php if ($userOwnsThisPost) { ?>
         <a class="post-buttons" href="../controllers/deletepost.php?post-id=<?= $postId ?>">Delete post</a>
     <?php } ?>
-</div>
 <div class="footer">
     <p>RCS, Kitija Cietvīra, 2022</p>
 </div>  
