@@ -75,7 +75,11 @@
         <?php } ?>
         <h3><?php echo ($userOwnsProfile === TRUE) ? "Welcome to your profile" : "Viewing Profile of" ?>: <span class="username"><?= $username ?><span></h3> 
         <img class="profile-image" src="../images/profile_images/<?= $image ?>" alt="">
-        <p class="profile-text"><?= $text ?></p>
+        <?php if(!$guest && $userOwnsProfile && $text == '') { ?>
+            <p class="profile-text-hidden"><?= $text ?></p>
+        <?php } else if ($text != '') { ?>
+            <p class="profile-text"><?= $text ?></p>
+        <?php } ?>
         <?php if ($userOwnsProfile === TRUE && $text != '') { ?>
             <a class="post-buttons" href="editprofile.php?user-id=<?= $userId ?>">Edit profile</a>
         <?php } else if ($text == '')  { ?>
