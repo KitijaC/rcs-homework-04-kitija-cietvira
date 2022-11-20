@@ -317,6 +317,9 @@ body .footer p {
   padding: 10px;
   border-radius: 8px;
 }
+.wrapper-profile .profile-text-hidden {
+  display: none;
+}
 .wrapper-profile .username {
   color: rgb(148, 22, 121);
   font-weight: bold;
