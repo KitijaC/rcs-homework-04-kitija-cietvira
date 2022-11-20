@@ -142,7 +142,7 @@
                 <input type="submit" class="btn btn-primary" value="Submit">
                 <input type="reset" class="btn btn-secondary" value="Reset">
             </div> 
-            <p class="sign-in-here">Already have an account? <a href="signin.php">Sign in here</a>.</p>
+            <p class="sign-in-here">Already have an account? <a href="signin.php">Sign In here</a>.</p>
         </form>
     </div>
     <div class="footer">
